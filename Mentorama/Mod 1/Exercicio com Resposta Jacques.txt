@@ -1,0 +1,53 @@
+1. Faça um programa que imprima seu nome completo na tela.
+nome_completo = "Jacques Araujo dos Santos"
+print ("Nome completo: ", nome_completo)
+
+2. Escreva um programa que exiba o resultado de 5a x 3b onde a = 2 e b = 5.
+a = 2
+b = 5
+resultado = ((5*a)*(3*b))
+print (resultado)
+
+3. Modifique o primeiro programa, inserindo uma terceira variável c = 5 e imprime a soma das três variáveis.
+a = 2
+b = 5
+c = 5
+resultado = ((5*a)*(3*b)*(c))
+print (resultado)
+
+
+4.	Escreva um programa que leia dois números e que pergunte qual operação você deseja realizar. Você deve poder calcular a soma (+), subtração(-), multiplicação(*) e divisão(/). Exiba o resultado da operação.
+5.	Escreva um programa em Python para contar de 1 até 10. 
+
+a) usando a instrução while 
+b) usando a instrução for e a função range 
+ 
+6.	Escreva um programa para contar quantos números pares e ímpares existentes entre 1 e 10 bem como a soma deles. 
+
+a) usando a instrução while 
+b) usando a instrução for e as funções range e sum 
+
+7.	Escreva um programa para resolver equações do segundo grau representadas por ax2+bx+c usando a Fórmula de Bhaskara. 
+
+a) sem usar o módulo math 
+      b) usando o módulo math 
+      c)Teste seu programa com os coeficientes: 
+
+a=1,b=-5,c=6 
+a=1,b=0,c=-9 
+a=5,b=-45,c=0 
+a=1,b=-1,c=-12 
+a=1,b=-6,c=10 
+
+8.	Reescreva o programa acima criando uma função bhaskara que recebe como parâmetros os coeficientes a, b e c e retorna as raízes da equação. 
+
+9.	 Considerando a string s = 'Mentorama' escreva um programa que: 
+a) converta a string para maiúsculo, em seguida 
+b) imprima-a de trás para frente 
+c) imprima somente as vogais 
+
+10.	Escreva um programa que pergunte o valor inicial de uma dívida e o juros mensal. Pergunte também o valor mensal que será pago. Imprima o número de meses para que a dívida seja paga, o total pago e o total de juros a pago.
+
+
+
+

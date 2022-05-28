@@ -1,0 +1,42 @@
+n = 1
+par = impar = 0
+while n != 0:
+    n = int(input('Digite um némero de 0 a 10: '))
+    if n % 2 == 0:
+        par += 1
+        print(f'O número {n} é PAR')
+    else:
+        impar +=1
+        print(f'O número {n} é IMPAR')
+
+
+
+
+
+n = 1
+par = impar = 0
+while n != 0:
+	n = int(input('Digite um número de 0 a 10: '))
+	if n % 2 == 0:
+		par += 1
+	print(f'O número {n} é PAR')
+
+    else:
+        impar +=1
+    print(f'O número {n} é IMPAR')
+
+
+
+if x % 2 == 0:
+        print(x)''' estou aqui
+
+-> Este código que você implementou está fazendo o seguinte: 
+"if"(se)  "x % 2 == 0" (x é par), "print(x)" (mostre x na tela).
+Ou seja, você pediu para mostrar na tela apenas os pares, por isso os ímpares não aparecem. Para mostrar os ímpares você tem que fazer o seguinte
+
+if x % 2 == 0:
+        print(x)
+else:
+        print(x)
+
+-> Se x não é par, então(else) ele é impar. Quando x é ímpar ele vai entrar no else e ser exibido na tela também.

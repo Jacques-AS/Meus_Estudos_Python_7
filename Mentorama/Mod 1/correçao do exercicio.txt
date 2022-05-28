@@ -1,0 +1,184 @@
+A seguir vou apresentar alguns comentários e correções:
+
+
+
+1) 
+
+Todo resultado que o usuário informa quando ocorre entrada vem no formato string, então não é preciso converter-lo novamente usando o str ().
+
+
+
+3) 
+
+Nesta questão você precisa somas a, seja c. Mas não se preocupe, acredito que foi um erro de interpretação, eu tenho certeza que você sabe desenvolver esta somatória. 
+
+
+
+4) 
+
+A linha:
+se operacao == '+':
+
+ Está traduzida, em python seria:
+
+
+
+Se operacao == '+':
+
+
+
+O mesmo ocorreu na linha:
+
+
+
+senão:
+
+
+
+Deveria ser:
+
+
+
+senão:
+
+
+
+O python não entende o “se” e o “senão”, mas o raciocínio está certinho, basta altera-los para if e else, respectivamente. Além disso, o formato também foi traduzido para formato e input para entrada.
+
+
+
+
+
+
+
+5 a)
+
+Neste exercício também temos um problema de tradução. O python não entende o enquanto, deveria ser while. O print também está traduzido. 
+
+
+
+5 b) 
+
+Aqui também temos um problema com a tradução.
+
+
+
+6) Também está traduzido. 
+
+
+
+As questões demais não recebi, siga as orientações de como fazer. Se tiver qualquer dúvida, pode me chamar no Discord ok? Estarei lá a disposição! ;)
+
+
+
+7)
+
+Primeiro, busque a fórmula de Bhaskara no Google, caso não lembre de cabeça. Nela, você tem os coeficientes a, b, ec que são, no seu programa, as variáveis. 
+
+Perceba que na fórmula de Bhaskara temos b + (…) e b- (…), então na verdade, você vai fazer duas fórmulas: na primeira, o resultado é baseado em b- (…), na segunda, o resultado é baseado em b + (...). A única coisa que muda de uma fórmula para outra é o sinal de + e - depois no coeficiente b. 
+
+ 
+
+Na fórmula de Bhaskara que você implementará, você precisa calcular raiz quadrada. Para isso, você vai usar uma função matemática do python ou calcular a raiz manualmente . 
+
+ 
+
+Importante: Não se esqueça de testar seu programa com todos os coeficientes do exemplo e entregar o exercício com os resultados destes testes. 
+
+
+
+Dica: Na biblioteca math existem diversas funções implementadas para calcular e, uma função que cálculo raiz quadrada se chama sqrt (). Dica: Para calcular raiz quadrada de um número, você pode elevar o número à 0,5 que funciona;)
+
+
+
+8)
+
+Reescreva o programa acima criando uma função bhaskara que recebe como parâmetros os coeficientes a, b, ce retorna como raízes da equação.
+
+
+
+Neste exercício você vai calcular a mesma fórmula de bhaskara proposta no exercício 7. A diferença é que neste exercício você vai criar uma função / método para retornar os resultados da fórmula. 
+
+
+
+Estrutura do método:
+
+
+
+def bhaskara ( a , b , c ): 
+
+     calcule aqui ...
+
+     retornar (resultado que você quer retornar aqui)
+
+
+
+#executar a função: 
+
+resultado = bhaskara ( a , b , c )
+      
+
+Importante: Não se esqueça de executar o método e imprimir o resultado para ver se funcionou :). Outra dica, o professor já disponibilizou o código no enunciado. Basta reescrevê-lo e ver como funciona uma função.
+
+
+
+9)
+
+
+
+o resultado deve ser: MENTORAMA
+
+o resultado deve ser: amarotneM
+
+o resultado deve ser: eoaa
+
+
+
+Dica para fazer a letra c: Você precisa percorrer cada letra da palavra para verificar se ela é uma vogal ou não. Para percorrer como letras, você pode utilizar a estrutura de repetição para   e, para verificar se é vogal, você pode utilizar condicionais (if, else).
+
+
+
+Importante: Seu programa deve funcionar para qualquer string, não apenas para " Mentorama ". 
+
+
+
+
+10)  Escreva um programa que receba como entrada do usuário ou nome “João”
+
+sobrenome “da Silva”, idade “25”, Cidade “São Paulo”, ddd “11”, telefone “3333-3333” e
+
+faça as seguintes instruções:
+
+
+
+a) imprima na tela o nome completo em uma única linha
+
+Nome: João da Silva
+
+
+
+b) imprima na tela o telefone com ddd em uma única linha
+
+Telefone: (11) 3333-3333
+
+
+
+c) Impressão na tela a idade
+
+Idade: 25
+
+
+
+d) Imprima na tela a cidade
+
+Cidade: São Paulo
+
+
+
+
+Neste exercício você vai pedir para o usuário informar nome, telefone, idade e cidade e vai mostrar na tela o nome, telefone, idade e cidade informados por ele. 
+
+
+
+Dica: Use uma função de impressão () para imprimir na tela 
+

@@ -1,0 +1,32 @@
+'''1.	Crie um programa que leia nome, sexo e idade de várias pessoas, guardando os dados de cada pessoa em um dicionário e todos os dicionários em uma lista. No final, mostre:
+a)	Quantas pessoas foram cadastradas
+b)	A média de idade
+c)	Uma lista com as mulheres
+d)	Uma lista de pessoas com idade acima da média'''
+
+lista = []
+lista_mulher = []
+soma_idade = 0
+while True:
+    nome = input('Digite o nome completo: ').capitalize()
+    sexo = input('Sexo[M/F]?: ').upper()
+    idade = int(input('Idade: '))
+    dic = {'Nome': f'{nome}', 'Idade': f'{idade}', 'Sexo': f'{sexo}'}
+    lista.append(dic)
+
+    if sexo == 'F':
+        lista_mulher.append(sexo)
+        pergunta = input('Quer continuar com os cadastros [S/N]?: ').upper()
+
+    if not pergunta == 'S':
+        soma_idade += idade
+        break
+
+print(f'Ao todo foram registadas {len(lista)} pessoa/s')
+print(f'A média das idade/s é de {soma_idade/len(lista)} ano/s de idade')
+print(f'Ao todo foram registada/s {len(lista_mulher)} mulher/es')
+
+
+atendimento@elleve.com.br
+Mandei email para cancelamento@mentorama.com.br
+Gente quem quiser cancelar manda email se não responderem façam o mesmo reclamem em todos os canais eu mandei Tb no LinkedIn e copiei o CEO  escola é o  @oleg fomim
